@@ -1684,6 +1684,9 @@ colormap_stream(Gif_Stream* gfs, Gif_Colormap* new_cm, Gt_OutputData* od)
       }
   }
 
+  // NPF
+  compress_new_cm = 0;
+
   if (compress_new_cm) {
     int map[256];
 
